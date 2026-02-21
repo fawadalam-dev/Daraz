@@ -9,7 +9,7 @@ function Header({ cartCount }) {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo">
-          DARAZ
+          <img src="/images/products/Daraz-Logo.png" alt="Daraz Logo" className="logo-image" />
         </Link>
 
         <div className="search-bar">
