@@ -43,7 +43,7 @@ function App({ cartCount, onAddToCart }) {
           </div>
         </section>
 
-        {/* Products Grid */}
+        <section className="products-section">
           <div className="products-container">
             <h2>
               {selectedCategory === 'All'
@@ -69,7 +69,7 @@ function App({ cartCount, onAddToCart }) {
         </section>
       </main>
 
-      {/* Footer */}
+      <footer className="footer">
         <div className="footer-content">
           <div className="footer-section">
             <h4>About DARAZ</h4>

@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter, Routes, Route } from "react-router";
 import About from './Pages/About/About.jsx'
-import Product from './Pages/Products/Product.jsx'
+import Product from './Pages/Products/product.jsx'
 import Cart from './Pages/Cart/Cart.jsx'
 
 function Root() {
